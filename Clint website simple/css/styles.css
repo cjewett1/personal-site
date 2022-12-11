@@ -1,0 +1,458 @@
+@font-face {
+    font-family: 'ostrich_sansblack';
+    src: url('ostrichsans-black-webfont.woff2') format('woff2'),
+         url('ostrichsans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ostrich_sansheavy';
+    src: url('ostrichsans-heavy-webfont.woff2') format('woff2'),
+         url('ostrichsans-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.skills-hobbies p {
+    font-size: 5rem;
+}
+.about-page {
+    background-color: black;
+}
+
+.about-me-two, .index {
+    background-image: url(../img/PNG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+        /*This is for the scroll effect */
+    background-attachment: fixed;
+    width: 100%;
+    height: calc(100vh - 125px);
+}
+
+/* SKILLS ON LEFT - TEXT ON RIGHT!!! */
+
+/* the thing */
+.carousel {
+	text-align: center;	
+}
+
+.wrapper {
+    display: none;
+}
+
+.carousel>img {
+	height: 30rem;
+}
+
+.carousel>.next,
+.carousel>.prev {
+	border-radius: 50%;
+	color: #ddd;
+	display: inline-block;
+    font-size: 210%;
+    font-weight: bold;
+    margin-top: 30%;
+    width: 40px;
+    padding-bottom: 2px;
+}
+
+.carousel>.next,
+.carousel>.prev {
+	cursor: pointer;
+}
+
+.carousel>.next {
+    float: right;
+}
+.carousel>.prev {
+    float: left;
+}
+
+.image-tracker {
+	color: #ddd;
+	font-size: 36px;
+}
+
+.image-tracker>span:hover {
+	cursor: pointer;
+}
+
+.image-tracker>span.active {
+	color: #333;
+}
+
+div.wrapper {
+	margin: auto;
+    top: 15rem;
+}
+
+.wrapper>h1 {
+	border-bottom: 1px solid #333;
+	padding-bottom: 10px;
+}
+
+body {
+    font-family: 'Averia Serif Libre', sans-serif;
+}
+
+div.about-me p{
+    color: white;
+    width: 35ch;
+    font-size: 2rem;
+}
+
+div.about-me a {
+    color: white;
+}
+
+div.about-me-two p{
+    color: white;
+    width: 35ch;
+    font-size: 2rem;
+}
+
+
+.about-me-two {
+    padding-bottom: 1rem;
+}
+
+.skills-hobbies{
+    padding: 2rem 1rem 0rem 1rem;
+}
+
+ul.side-navigation {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.side-navigation a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+div.about-me p:first-child {
+    font-size: 7rem;
+    font-weight: 700;
+    width: 100vw;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+div.about-me-two p:first-child{
+    font-size: 7rem;
+    font-weight: 700;
+    width: 90vw;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+div.about-me-two p:last-child{
+    width: 90vw;
+    text-align: center;
+    padding-left: 1rem;
+}
+
+.skills-hobbies{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+div.about-me p:last-child {
+    width: 100vw;
+    text-align: center;
+}
+
+ul.menu img {
+    height: 4rem;
+    margin: 0 .5rem;
+    padding: 1rem .5rem;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.side-nav {
+        width: 100vw;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.4s ease-in-out;
+    
+}
+
+.show-nav {
+    max-height: 18.75rem;
+}
+
+svg {
+    height: 4rem;
+    color: white;
+    fill: white;
+    cursor: pointer;
+} 
+
+.skills-hobbies img {
+    height: 2rem;
+    padding-left: .5rem;
+}
+
+.skills li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .2rem;
+}
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+    width: 90vw; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family:'Averia Serif Libre', sans-serif;
+    font-size: 1rem;
+      }
+
+  input[type=submit] {
+    width: 90vw;
+    background-color: white;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Averia Serif Libre', sans-serif;
+    font-size: 1rem;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #040019;
+    color: white;
+  }
+  
+.container {
+    width: 90vw;
+    margin-top: 8rem;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(36, 37, 38, 0.5);
+    padding: 20px;
+  }
+
+.button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+div.photos {
+    padding: 1rem;
+    }
+
+div.photos img {
+    width: 100%;
+    padding-bottom: 1rem;
+
+}
+
+.skills-hobbies {
+    background: #040019;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    box-shadow: 5px 4px 8px black;
+}
+
+
+/*Desktop View*/
+
+@media screen and (min-width: 720px) {
+
+    
+    header {
+    position: sticky;
+    z-index: 1;
+    top: 0rem;
+    }   
+
+    div.photos {
+        display: none;
+    }
+
+    ul.menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    ul.menu img {
+        height: 3rem;
+        margin: 0 .5rem;
+        padding: 1rem .5rem;
+    }
+
+    .about-me {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    }
+
+    .about-me-two {
+        display: flex;
+        flex-flow: column;
+        position: relative;
+    }
+
+    div.about-me p:first-child {
+        position: absolute;
+        right: 14rem;
+        top: 5rem;
+        line-height: 6rem;
+        width: 10ch;
+        text-align: left;
+        margin-top: 0rem;
+    }
+
+    div.about-me p:last-child {
+        position: absolute;
+        right: 20rem;
+        top: 20rem;
+        width: 30ch;
+        text-align: left;
+    }
+
+    div.about-me-two p:last-child{
+
+        position: absolute;
+        right: 20rem;
+        top: 20rem;
+        width: 30ch;
+        text-align: left;
+    }
+
+    div.about-me-two p:first-child{
+
+        position: absolute;
+        right: 14.5rem;
+        top: 5rem;
+        line-height: 6rem;
+        width: 10ch;
+        text-align: left;
+        margin-top: 0rem;
+    }
+
+    ul.side-navigation{
+        transform: rotate(-90deg);
+        position: fixed;
+        top: 25rem;
+        left: -10rem;
+        visibility: visible;
+    }
+
+    ul.side-navigation a {
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+
+    ul.side-navigation a:hover {
+        text-shadow: 0 0 10px #fff
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family:'Averia Serif Libre', sans-serif;
+        font-size: 1rem;
+        }
+    
+      input[type=submit] {
+        background-color: white;
+        width: 100%;
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        font-family: 'Averia Serif Libre', sans-serif;
+        font-size: 1rem;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #040019;
+        color: white;  
+      }
+
+      .container {
+          width: 40vw;
+      }
+
+      svg {
+          display: none;
+      }
+
+      .wrapper {
+        display:block;
+        padding-top: 3rem;
+    }
+
+    .blurb p {
+        color: white;
+        text-shadow: 2px 2px 6px #000000;
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .carousel>img {
+        height: 50rem;
+    }
+
+    .wrapper {
+        display: flex;
+    }
+
+    .carousel {
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+
+}
